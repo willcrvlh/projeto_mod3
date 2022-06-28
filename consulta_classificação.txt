@@ -11,3 +11,15 @@ SELECT
     END AS melhores_atores
 FROM
     atores
+
+    quantos atores estreiaram por ano no got
+SELECT 
+    atores.primeiro_ano ,count(atores.primeiro_ano)
+FROM 
+    atores
+
+WHERE
+     atores.Primeiro_Ano =  atores.Primeiro_Ano
+
+GROUP BY   
+     atores.primeiro_ano;
