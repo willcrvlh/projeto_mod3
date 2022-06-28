@@ -1,17 +1,12 @@
-# Banco de Dados - Projeto 
+# Data Of Thrones - Projeto/Módulo 3
 
 ![bench of thrones](https://user-images.githubusercontent.com/83258570/176099350-a7aa9ff7-e0b8-4f0c-afb6-53587db115ba.jpg)
 
 ### ⚔ O que é Data Of Thrones?
 
-Através de um banco de dados, analisamos suas informações com foco em trazer curiosidades sobre a série Game Of Thrones, transmitida pela HBO. Exibida entre 2011 e 2019, a adptação de A Song of Ice and Fire é a série mais assistida do catálogo da emissora.
+Através de um banco de dados, analisamos informações com foco em trazer curiosidades sobre a série Game Of Thrones, transmitida pela HBO. Exibida entre 2011 e 2019, a adptação de A Song of Ice and Fire é a série mais assistida do catálogo da emissora.
 
-
-### 💬 Dados:
-
-(em desenvolvimento)
-
-
+Este projeto faz parte de uma sprint de formação de Desenvolvimento Web da Escola de Facilitação Resilia.
 
 
 ## 🤝 Squad de Desenvolvimento
