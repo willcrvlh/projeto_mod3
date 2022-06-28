@@ -1,0 +1,13 @@
+Use got;
+SELECT 
+    Nome_Personagem,
+    Ator,
+    Qtd_Aparicao,
+    CASE
+        WHEN Qtd_Aparicao > 60 THEN 'Principais'
+        WHEN Qtd_Aparicao > 40 THEN 'Coadjuvante'
+        when Qtd_Aparicao > 10  then 'Secundario'
+        WHEN Qtd_Aparicao <= 10 THEN 'Figurante'
+    END AS melhores_atores
+FROM
+    atores
