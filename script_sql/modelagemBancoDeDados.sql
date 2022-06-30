@@ -1,15 +1,16 @@
 CREATE DATABASE got;
 USE got;
+
 CREATE TABLE personagens (
-    id_personagem INTEGER PRIMARY KEY,
+	id_personagem INT PRIMARY KEY,
     nome_personagem VARCHAR(255),
-    ator VARCHAR(255),
-    quantidade_aparicao INTEGER,
-    primeiro_ano INT4,
-    ultimo_ano INT4,
-    id_familias VARCHAR(255),
-    FOREIGN KEY (id_familias)
-        REFERENCES casas (id_familias)
+    id_familias INT,
+	ator VARCHAR(255),
+    quantidade_aparicao INT,
+	primeiro_ano INT,
+	ultimo_ano INT,
+     FOREIGN KEY (id_familias)
+        REFERENCES familias (id_familias)
 );
 
 CREATE TABLE episodios (
@@ -35,13 +36,14 @@ CREATE TABLE episodios (
 );
 
 CREATE TABLE casas (
-    id_familias INT PRIMARY KEY,
-    nome_familias VARCHAR(255),
+    id_casas INT PRIMARY KEY,
+    nome_casas VARCHAR(255),
     regiao VARCHAR(200),
     id_personagem INT,
-    id_episodio INT,
-    FOREIGN KEY (id_personagem)
-        REFERENCES personagens (id_personagem),
-    FOREIGN KEY (id_episodio)
-        REFERENCES episodios (id_episodio)
+    id_episodio INT
+);
+
+CREATE TABLE familias(
+	id_familias INT PRIMARY KEY,
+	familias VARCHAR(255)
 );
