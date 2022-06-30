@@ -1,25 +1,45 @@
 Use got;
 SELECT 
-    Nome_Personagem,
-    Ator,
-    Qtd_Aparicao,
-    CASE
-        WHEN Qtd_Aparicao > 60 THEN 'Principais'
-        WHEN Qtd_Aparicao > 40 THEN 'Coadjuvante'
-        when Qtd_Aparicao > 10  then 'Secundario'
-        WHEN Qtd_Aparicao <= 10 THEN 'Figurante'
-    END AS melhores_atores
+    personagens.ultimo_ano, COUNT(personagens.ultimo_ano)
 FROM
-    atores
-
-    quantos atores estreiaram por ano no got
-SELECT 
-    atores.primeiro_ano ,count(atores.primeiro_ano)
-FROM 
-    atores
-
+    personagens
 WHERE
-     atores.Primeiro_Ano =  atores.Primeiro_Ano
+    personagens.ultimo_Ano = personagens.ultimo_Ano
+GROUP BY personagens.ultimo_ano;
 
-GROUP BY   
-     atores.primeiro_ano;
+
+
+
+SELECT 
+    personagens.primeiro_ano, COUNT(personagens.primeiro_ano)
+FROM
+    personagens
+WHERE
+    personagens.primeiro_ano = personagens.primeiro_ano
+GROUP BY personagens.primeiro_ano;
+
+
+select episodios.Temporada , episodios.Estreia
+from episodios
+where episodios.Temporada = episodios.Temporada
+group by episodios.Temporada; 
+
+SELECT 
+    nome_Personagem,
+    ator,
+    quantidade_Aparicao,
+    CASE
+        WHEN quantidade_Aparicao > 60 THEN 'Principais'
+        WHEN quantidade_Aparicao > 40 THEN 'Coadjuvante'
+        when quantidade_Aparicao > 10  then 'Secundario'
+        WHEN quantidade_Aparicao <= 10 THEN 'Figurante'
+    END AS melhor_ator
+FROM
+    personagens;
+SELECT 
+    Nome_Personagem,
+    Ator    
+FROM
+    personagens
+WHERE 
+
