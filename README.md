@@ -32,7 +32,7 @@ Conheça a equipe responsável pelo projeto:
       </a>
     </td>
     <td align="center">
-      <a href="https://www.iconfinder.com/icons/273178/github_icon">
+      <a href="https://github.com/Garridopedro">
         <img src="https://avatars.githubusercontent.com/u/80377307?v=4" width="100px;"><br>
         <sub>
           <b>Pedro Garrido</b>
@@ -41,7 +41,7 @@ Conheça a equipe responsável pelo projeto:
     </td>
     <tr>
     <td align="center">
-      <a href="https://www.iconfinder.com/icons/273178/github_icon">
+      <a href="https://github.com/CarratiPatrick">
         <img src="https://avatars.githubusercontent.com/u/102706093?v=4" width="100px;"><br>
         <sub>
           <b>Patrick Ferrari</b>
