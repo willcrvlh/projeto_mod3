@@ -25,7 +25,7 @@ Conheça a equipe responsável pelo projeto:
     </td>
     <td align="center">
       <a href="https://github.com/willcrvlh">
-        <img src="hhttps://avatars.githubusercontent.com/u/101817310?v=4" width="100px;"><br>
+        <img src="https://avatars.githubusercontent.com/u/101817310?v=4" width="100px;"><br>
         <sub>
           <b>Willian Carvalho</b>
         </sub>
@@ -42,7 +42,7 @@ Conheça a equipe responsável pelo projeto:
     <tr>
     <td align="center">
       <a href="https://www.iconfinder.com/icons/273178/github_icon">
-        <img src="https://www.iconfinder.com/icons/273178/github_icon" width="100px;"><br>
+        <img src="https://avatars.githubusercontent.com/u/102706093?v=4" width="100px;"><br>
         <sub>
           <b>Patrick Ferrari</b>
         </sub>
