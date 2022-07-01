@@ -96,12 +96,12 @@ LIMIT 1;
 -- qual a quantidade de aotes que tem a aparição superior que "50" vezes?
 
 SELECT * FROM got.atores
-WHERE Qtd_Aparicao > 50;
+WHERE quantidade_aparicao > 50;
 
 -- qual atores menos aparecem em tela?
 
 SELECT * FROM got.atores
-WHERE Qtd_Aparicao < 3;
+WHERE quantidade_aparicao < 3;
 
 -- quantos episódios obtivemos na temporada 1?
 
@@ -110,7 +110,7 @@ WHERE temporada = "1" -- RESULTADO: a consulta revela que obtivermos 10 episódi
 
 -- se somassemos todas as aparições de personagens, quantas vezes os personagens apareceram na tela?
 
-SELECT SUM(Qtd_Aparicao) FROM got.atores; -- RESULTADO: 3497 aparições em tela em todas as temporadas.
+SELECT SUM(quantidade_aparicao) FROM got.atores; -- RESULTADO: 3497 aparições em tela em todas as temporadas.
 
 -- qual episodio teve o maior indice de audencia nos EUA?
 SELECT
