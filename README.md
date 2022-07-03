@@ -4,7 +4,7 @@
 
 ### ⚔ O que é Data Of Thrones?
 
-Através de um banco de dados, analisamos informações com foco em trazer curiosidades sobre a série Game Of Thrones, transmitida pela HBO. Exibida entre 2011 e 2019, a adptação de A Song of Ice and Fire é a série mais assistida do catálogo da emissora.
+Através de um banco de dados, analisamos informações utilizando a linguqguem sql com foco em trazer curiosidades sobre a série Game Of Thrones, transmitida pela HBO. Exibida entre 2011 e 2019, a adptação de A Song of Ice and Fire é a série mais assistida do catálogo da emissora.
 
 Este projeto faz parte de uma sprint de formação de Desenvolvimento Web da Escola de Facilitação Resilia.
 
