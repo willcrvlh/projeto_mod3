@@ -8,6 +8,28 @@ Através de um banco de dados, analisamos informações utilizando a linguqguem 
 
 Este projeto faz parte de uma sprint de formação de Desenvolvimento Web da Escola de Facilitação Resilia.
 
+### ⚔ A série:
+
+![a serie](https://user-images.githubusercontent.com/83258570/177057126-21856f25-a351-421b-8c19-37157c237b31.jpg)
+
+
+### ⚔ Alguns dados extraídos:
+
+Usando filtros, conseguimos chegar ao número de casas de casa região:
+
+![regiões](https://user-images.githubusercontent.com/83258570/177057049-beb5a98b-346b-4494-a6aa-a91a1ecc128e.jpg)
+
+E maior audiência? Nos Estados Unidos, a maior audiência foi na temporada 5.
+![maior audiencia](https://user-images.githubusercontent.com/83258570/177057077-96810cb4-a9cc-4a11-8435-6ee323fd937c.jpg)
+
+Qual seu personagem preferido? Nós descobrimos aqueles que mais tiveram aparição nas telinhas.
+![top5got](https://user-images.githubusercontent.com/83258570/177057094-5e2a8feb-f152-4465-ab58-36920d7311ce.jpg)
+
+Qual episódios tiveram mais votação? Segundo o imdb, The Iron Throne foi o mais votado positivamente.
+![pergunta3](https://user-images.githubusercontent.com/83258570/177057134-2df47b33-4768-4b64-bf32-57703c0b7855.jpg)
+
+Também descobrimos que David Benioff foi o escritor que mais trabalhou no desenvolvimento de episódios.
+![pergunta 4](https://user-images.githubusercontent.com/83258570/177057158-78a3a292-a673-4094-8b06-31f212c36a1c.jpg)
 
 ## 🤝 Squad de Desenvolvimento
 
