@@ -1,4 +1,0 @@
-Quem foi o personagem principal(ou seja o que apareceu na tela) de cada temporada e quanto tempo ficou na tela
-e qual era a sinopse do episodio?
-
-SELECT * FROM 
